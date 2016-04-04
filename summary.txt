@@ -1,0 +1,20 @@
+================================================================================
+
+        Currency Fair Marketplace Simulation, Analysis and Predictions
+		
+		            --- Summary ----
+
+                         James Lawlor - 4/4/2015
+================================================================================
+
+This project used a set of Python programs and IPython notebooks to model, analyse and predict the behaviour of a peer-to-peer currency exchange marketplace. 
+
+Part 1: The details of the assumptions made and the mathematical techniques used were discussed in marketplace.ipynb. These were then implemented in the Python program marketplace.py, which runs a single market simulation with a specified set of parameters. 
+
+Part 2: marketplace.py was adapted to output a large amount of market and trader data for a range of starting parameters. These starting parameters were fed in via dictionaries, which were generated using the program exploration/dic_gen.py. The data was then explored in the notebooks data_exploration.ipynb and data_exploration_2.ipynb which looked at the market/seller dynamics and the effects of different starting paramter combinations. 
+
+Part 3: Machine Learning algorithms were used to predict seller behaviour on two tasks - classification of whether a sale will complete or not, and a regression of how long it takes a successful sale to complete. These were completed in the notebooks deal_or_no_deal.ipynb and time_to_sale_prediction.ipynb. It was found that the Random Forest algorithm performs particularly well at both tasks and the topic of overfitting was discussed.
+
+Part 4: summary.txt - this file!
+
+In summary, we demonstrated the effectiveness of different machine learning algorithms at predicting the seller behaviour. The issue of overfitting of certain algorithms was also discussed. While these results are quite promising we have to bear in mind that the initial modelling of the marketplace was less than ideal and employed several simplifications/heuristics. Further improvements to this model could be made by refining these assumptions, and a similar overall technique could then be applied in the prediction. 
