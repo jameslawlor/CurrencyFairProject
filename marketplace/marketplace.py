@@ -1,6 +1,6 @@
 """
 ================================================================================
-            Currency Fair Project - Part 1 - Market simulation
+            FOREX simulation - Part 1
 ================================================================================
 
 This program simulates a peer-to-peer currency marketplace with a variable
