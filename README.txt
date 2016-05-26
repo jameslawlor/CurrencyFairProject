@@ -1,5 +1,5 @@
 ================================================================================
-        Currency Fair Marketplace Simulation, Analysis and Predictions
+        FOREX Marketplace Simulation, Analysis and Predictions
 
 		      --- README / Introduction ----
 
