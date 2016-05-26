@@ -1,6 +1,6 @@
 """
 ================================================================================
-    Currency Fair Project - Part 2 - Prediction Data Set Generation
+    FOREX Project - Part 2 - Prediction Data Set Generation
 ================================================================================
 
  This program is extremely similar to marketplace.py in the top project folder,
